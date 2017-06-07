@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blanchè!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/glav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/animacion.js"></script>
+    <script src="../js/height.js"></script>
+    <script>
+        $(document).ready(function() {
+            var altura = $(window).height();
+            $('.canva').css('height', altura + 'px');
+        });
+    </script>
+</head>
+
+<body>
+    <div class="superior">
+        <img id="i" src="../img/logo.png" width="300px">
+        <div id="m" class="cargando">
+
+        </div>
+    </div>
+    <div class="canva">
+        <div class="letras">
+            <p class="us">LAVANDERÍA</p>
+        </div>
+        <div class="slider">
+            <ul>
+                <li><img id="ig" src="../img/slide/lav/1.jpg"></li>
+                <li><img id="ig" src="../img/slide/lav/2.jpg"></li>
+                <li><img id="ig" src="../img/slide/lav/3.jpg"></li>
+                <li><img id="ig" src="../img/slide/lav/4.jpg"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="contenido">
+
+        <div class="vid1">
+            <video height="720px" controls>
+                <source src="../vids/glav/lsam.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

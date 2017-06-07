@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Blanchè!</title>
+    <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+    <link rel="stylesheet" href="../css/glav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../js/animacion.js"></script>
+    <script src="../js/height.js"></script>
+    <script>
+        $(document).ready(function() {
+            var altura = $(window).height();
+            $('.canva').css('height', altura + 'px');
+        });
+    </script>
+</head>
+
+<body>
+    <div class="superior">
+        <img id="i" src="../img/logo.png" width="300px">
+        <div id="m" class="cargando">
+
+        </div>
+    </div>
+    <div class="canva">
+        <div class="letras">
+            <p class="us">COCINA</p>
+        </div>
+        <div class="slider">
+            <ul>
+                <li><img id="ig" src="../img/slide/coc/1.jpg"></li>
+                <li><img id="ig" src="../img/slide/coc/2.jpg"></li>
+                <li><img id="ig" src="../img/slide/coc/3.jpg"></li>
+                <li><img id="ig" src="../img/slide/coc/4.jpg"></li>
+            </ul>
+        </div>
+    </div>
+    <div id="contenido">
+        
+    </div>
+
+</body>
+
+</html>
